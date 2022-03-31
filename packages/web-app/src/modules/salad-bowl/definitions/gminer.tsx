@@ -2,22 +2,24 @@ const baseUrl = 'https://github.com/SaladTechnologies/plugin-downloads/releases/
 
 export const downloads = [
   {
-    version: '2.75',
-    windowsUrl: baseUrl + '/gminer-2-75/gminer-2-75-windows.zip',
+    version: '2.86',
+    windowsUrl: baseUrl + '/gminer-2-86/gminer-2-86-windows.zip',
+  },
+  {
+    version: '2.82',
+    windowsUrl: baseUrl + '/gminer-2-82/gminer-2-82-windows.zip',
+  },
+  {
+    version: '2.79',
+    windowsUrl: baseUrl + '/gminer-2-79/gminer-2-79-windows.zip',
+  },
+  {
+    version: '2.78',
+    windowsUrl: baseUrl + '/gminer-2-78/gminer-2-78-windows.zip',
   },
   {
     version: '2.54',
     linuxUrl: baseUrl + '/gminer-2.54/gminer-2-54-linux.tar.gz',
     windowsUrl: baseUrl + '/gminer-2.54/gminer-2-54-windows.zip',
-  },
-  {
-    version: '2.44',
-    linuxUrl: baseUrl + '/gminer-2.44/gminer-2-44-linux.tar.gz',
-    windowsUrl: baseUrl + '/gminer-2.44/gminer-2-44-windows.zip',
-  },
-  {
-    version: '2.39',
-    linuxUrl: baseUrl + '/gminer-2.39/gminer-2-39-linux.tar.gz',
-    windowsUrl: baseUrl + '/gminer-2.39/gminer-2-39-windows.zip',
   },
 ]
